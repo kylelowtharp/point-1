@@ -1,5 +1,11 @@
-public class PointDriver {
+/*Driver for point code
+Kyle Lowtharp
+*/
 
+
+
+public class PointDriver {
+	//Give them values
 	public static void main(String[] args ) {
 	Point lowerLeft = new Point();
 	Point upperRight = new Point();
@@ -13,7 +19,11 @@ public class PointDriver {
 
 	middlePoint.x = 640.0;
 	middlePoint.y = 512.0;
-
-	lowerLeft.printPoint();
+	// Print one of the points
+	upperRight.printPoint();
+	//clear it
+	upperRight.clear();
+	//print the points
+	upperRight.printPoint();
 	}
 }
